@@ -1,0 +1,26 @@
+{
+  "name": "dateconvbot",
+  "version": "1.0.0",
+  "description": "Date Converter Telegram bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Peyman Salehi",
+    "email": "slh.peyman@gmail.com",
+    "url": "https://peymansalehi.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peymanslh/date-converter-telegram-bot.git"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2"
+  }
+}
