@@ -38,7 +38,7 @@ router.post('/message', (req, res) => {
   const { message } = req.body;
 
   if (!message) {
-    return red.end();
+    return res.end();
   }
 
   if (message.text) {
